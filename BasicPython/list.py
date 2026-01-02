@@ -15,13 +15,13 @@ print(mylist1)
 mylist1.insert(1, "Durian")
 print(mylist1)
 #Loopers
+print()
 print("--- Loopers ---")
 
-for x in range (len(mylist1) - 3):
-    print(mylist1[x])
-print("----")
-
 thislist = ["apple", "banana", "cherry"]
+for x in range (len(thislist) - 1):
+  print(thislist[x])
+print("--------------")
 i = 0
 while i < len(thislist):
   print(thislist[i])
