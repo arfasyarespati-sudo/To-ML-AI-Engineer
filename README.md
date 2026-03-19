@@ -1,2 +1,2 @@
 # To-ML-AI-Engineer
-Progress pythonzz..
+python, scikit-learn, pandas, matplotlib, etc..
