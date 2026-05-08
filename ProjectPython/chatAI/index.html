@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Chat AI</h1>
+            <div class="model-selector">
+                <label>Model:</label>
+                <select id="modelSelect">
+                    <option value="gpt-3.5-turbo">GPT-3.5 Turbo</option>
+                    <option value="gpt-4">GPT-4</option>
+                    <option value="gpt-4-turbo">GPT-4 Turbo</option>
+                    <option value="gpt-4o">GPT-4o</option>
+                    <option value="gpt-4o-mini">GPT-4o Mini</option>
+                </select>
+            </div>
+        </header>
+
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        Hello! I'm your AI assistant. How can I help you today?
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-input-container">
+            <input
+                type="text"
+                id="messageInput"
+                placeholder="Type your message..."
+                autocomplete="off"
+            >
+            <button id="sendBtn">Send</button>
+        </div>
+
+        <div class="controls">
+            <button id="clearBtn">Clear Chat</button>
+            <span class="status" id="status"></span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

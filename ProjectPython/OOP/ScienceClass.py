@@ -38,6 +38,6 @@ e1 = exam("Science", 2)
 
 e1.addStudent(s1)
 e1.addStudent(s2)
-e1.addStudent(s3)
+e1.addStudent(s3)  
 
 print(e1.Avg())

@@ -1,0 +1,27 @@
+class Calculator:
+    def __init__(self,number1, number2):
+        self.number1 = number1
+        self.number2 = number2
+
+    def plus(self):
+        return self.number1 + self.number2
+    def minus(self):
+        return self.number1 - self.number2
+    def multiply(self):
+        return self.number1 * self.number2
+    def divide(self):
+        return self.number1 / self.number2
+
+print("Insert 2 numbers")
+
+a = int(input("first number: "))
+b = int(input("second number: "))
+
+c = Calculator(a, b)
+print()
+print("results: ")
+print()
+print(c.plus())
+print(c.minus())
+print(c.multiply())
+print(c.divide())
